@@ -35,6 +35,7 @@ jobs:
           context: .
           file: ./Dockerfile
           platforms: linux/amd64
+          push: true
           tags: william861227/python-hello-world:latest
 
 
