@@ -24,7 +24,7 @@ def status():
 
 @app.route("/metrics")
 def metrics():
-
+""" metrics endpoit"""
     response = app.response_class(
         response=json.dumps({"status":"success",
                              "code":0,
